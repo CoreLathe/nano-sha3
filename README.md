@@ -1,13 +1,13 @@
 # NanoSHA3-256 – ≤ 1.5 kB SHA-3-256 for Embedded Systems
 
-![Size](https://img.shields.io/badge/flash-1456B-blue)
+![Size](https://img.shields.io/badge/flash-≤1.5kB-blue)
 ![Stack](https://img.shields.io/badge/stack-≤384B-green)
 ![Heap](https://img.shields.io/badge/heap-0%20Bytes-red)
 ![Timing](https://img.shields.io/badge/timing-constant--time-orange)
 
 **ARM Cortex-M0/M4/M33 optimized | ≤384 B stack | zero heap | constant-time verified | MIT-licensed validation**
 
-**1,456 B** SHA-3-256 flash footprint on ARM Cortex-M4/M33
+**≤ 1.5 kB** SHA-3-256 flash footprint on ARM Cortex-M4/M33
 **Multi-architecture timing validation** with **constant-time confirmation**
 **Zero heap**, **≤384 B stack**, **`no_std`**
 
@@ -42,7 +42,7 @@ Same constant-time & stack guarantees apply.
 - ✅ **Constant-time**: Multi-architecture timing validation with dudect analysis (Intel x64: |t| = 0.39 < 5.0, ARM Linux: |t| = 3.44 < 5.0)
 - ✅ **Zero-allocation**: Zero heap allocation confirmed via symbol analysis
 - ✅ **Embedded-optimized**: ARM Cortex-M0/M4/M33 support with advanced size optimization
-- ✅ **Size-optimized**: Flash footprint: **1,456 B** on ARM Cortex-M4/M33 (direct ELF measurement)
+- ✅ **Size-optimized**: Flash footprint: **≤ 1.5 kB** on ARM Cortex-M4/M33 (direct ELF measurement)
 - ✅ **no_std compatible**: Works in bare-metal environments
 - ✅ **Advanced optimization**: Nightly Rust + build-std for maximum size reduction
 - ✅ **Static library delivery**: Customer-ready .a files with C-compatible interface
@@ -118,8 +118,11 @@ Run comprehensive CI evidence validation:
 # Build optimized static libraries (required first)
 ./ci-evidence/verify-build-staticlibs.sh
 
-# Size validation (1.5KB hero numbers)
+# Size validation (≤1.5KB flash footprint)
 ./ci-evidence/verify-size.sh
+
+# ARM QEMU functional validation
+./ci-evidence/verify-arm-qemu.sh
 
 # Multi-architecture timing validation
 ./ci-evidence/verify-timing.sh
@@ -150,11 +153,13 @@ All validation evidence is generated in the `results/` directory:
 results/
 ├── build-results.csv              # Static library build results (5 architectures)
 ├── build-evidence.md              # Build methodology and optimization evidence
-├── target-number-validation.csv   # 1.5KB size validation results
+├── target-number-validation.csv   # ≤1.5KB size validation results
 ├── timing-results.csv             # Multi-architecture timing analysis
 ├── timing-evidence.md             # Constant-time validation evidence
 ├── nist-results.csv               # NIST test vector validation (237/237 vectors)
 ├── nist-evidence.md               # Cryptographic correctness validation
+├── arm-qemu-validation.csv        # ARM QEMU functional validation
+├── arm-qemu-evidence.md           # QEMU-based correctness validation
 ├── zero-heap-results.csv          # Heap allocation analysis
 ├── zero-heap-evidence.md          # Memory safety validation
 ├── stack-analysis-results.csv     # Stack usage analysis
@@ -163,7 +168,7 @@ results/
 ```
 
 **Professional Assessment**: The CI evidence system provides comprehensive auditable validation of:
-- **Size optimization**: 1.5KB embedded flash footprint with direct ELF measurement
+- **Size optimization**: ≤1.5KB embedded flash footprint with direct ELF measurement
 - **Cryptographic correctness**: 237/237 NIST test vectors validated against customer-deliverable static libraries
 - **Timing security**: Multi-architecture constant-time confirmation (Intel x64 + ARM Linux)
 - **Memory safety**: Zero heap allocation and bounded stack usage confirmation
