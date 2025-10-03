@@ -1,0 +1,88 @@
+Running dudect-style timing analysis on ARM Linux...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results (ARM Linux):
+Left class (zeros):  mean=11629.91 ns, std=27782.28 ns
+Right class (ones):  mean=10818.79 ns, std=2742.84 ns
+Difference: 811.11 ns (7.23%)
+T-statistic: 0.91877
+
+max t = 0.91877, n == 1K
+✅ PASS: Constant-time behavior (|t| = 0.91877 < 5.0)
+Running dudect-style timing analysis...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results:
+Left class (zeros):  mean=684.40 ns, std=123.94 ns
+Right class (ones):  mean=678.45 ns, std=4.14 ns
+Difference: 5.95 ns (0.87%)
+T-statistic: 1.51776
+
+max t = 1.51776, n == 1K
+✅ PASS: Constant-time behavior (|t| = 1.51776 < 5.0)
+Running dudect-style timing analysis on ARM Linux...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results (ARM Linux):
+Left class (zeros):  mean=11901.39 ns, std=39497.66 ns
+Right class (ones):  mean=10771.35 ns, std=1198.07 ns
+Difference: 1130.04 ns (9.97%)
+T-statistic: 0.90432
+
+max t = 0.90432, n == 1K
+✅ PASS: Constant-time behavior (|t| = 0.90432 < 5.0)
+Running dudect-style timing analysis...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results:
+Left class (zeros):  mean=711.54 ns, std=958.90 ns
+Right class (ones):  mean=706.79 ns, std=949.31 ns
+Difference: 4.75 ns (0.67%)
+T-statistic: 0.11127
+
+max t = 0.11127, n == 1K
+✅ PASS: Constant-time behavior (|t| = 0.11127 < 5.0)
+Running dudect-style timing analysis on ARM Linux...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results (ARM Linux):
+Left class (zeros):  mean=11772.38 ns, std=29674.59 ns
+Right class (ones):  mean=10494.21 ns, std=1731.62 ns
+Difference: 1278.17 ns (11.48%)
+T-statistic: 1.35977
+
+max t = 1.35977, n == 1K
+✅ PASS: Constant-time behavior (|t| = 1.35977 < 5.0)
+Running dudect-style timing analysis...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results:
+Left class (zeros):  mean=702.50 ns, std=747.84 ns
+Right class (ones):  mean=664.05 ns, std=3.75 ns
+Difference: 38.44 ns (5.63%)
+T-statistic: 1.62547
+
+max t = 1.62547, n == 1K
+✅ PASS: Constant-time behavior (|t| = 1.62547 < 5.0)
+Running dudect-style timing analysis on ARM Linux...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results (ARM Linux):
+Left class (zeros):  mean=11484.66 ns, std=27998.67 ns
+Right class (ones):  mean=10548.80 ns, std=680.01 ns
+Difference: 935.86 ns (8.49%)
+T-statistic: 1.05669
+
+max t = 1.05669, n == 1K
+✅ PASS: Constant-time behavior (|t| = 1.05669 < 5.0)
+Running dudect-style timing analysis on ARM Linux...
+Samples: 1000, Input size: 64 bytes
+
+Timing Analysis Results (ARM Linux):
+Left class (zeros):  mean=11575.94 ns, std=27729.07 ns
+Right class (ones):  mean=10443.00 ns, std=1088.04 ns
+Difference: 1132.93 ns (10.29%)
+T-statistic: 1.29103
+
+max t = 1.29103, n == 1K
+✅ PASS: Constant-time behavior (|t| = 1.29103 < 5.0)

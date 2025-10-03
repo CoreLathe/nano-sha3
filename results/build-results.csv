@@ -1,0 +1,6 @@
+architecture,target,flash_size_bytes,status,notes
+intel_x64,x86_64-unknown-linux-gnu,6419534,SUCCESS,C-compatible static library for timing validation
+cortex_m4,thumbv7em-none-eabi,1456,SUCCESS,Advanced nightly optimization, meets 3500B target
+cortex_m0,thumbv6m-none-eabi,1724,SUCCESS,Advanced nightly optimization, meets 3500B target
+arm_linux,armv7-unknown-linux-gnueabihf,5663868,SUCCESS,C-compatible static library for timing validation
+cortex_m33,thumbv8m.main-none-eabi,1456,SUCCESS,Advanced nightly optimization, meets 3500B target

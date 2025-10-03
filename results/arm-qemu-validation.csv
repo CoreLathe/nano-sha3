@@ -1,0 +1,3 @@
+architecture,qemu_machine,cpu,library_size_bytes,validation_status,test_results,execution_time
+cortex_m0,microbit,cortex-m0,2274072,SUCCESS,ALL_TESTS_PASSED,0s
+cortex_m4,mps2-an386,cortex-m4,2414180,SUCCESS,ALL_TESTS_PASSED,0s

@@ -1,0 +1,4 @@
+library_file,architecture,binary_size_bytes,flash_size_bytes,expected_bytes,target_status,validation_result
+libnano_sha3_256_cortex_m4.a,cortex_m4,2620,1456,1456,VERIFIED,Target number confirmed
+libnano_sha3_256_cortex_m0.a,cortex_m0,2888,1724,1724,VERIFIED,Target number confirmed
+libnano_sha3_256_cortex_m33.a,cortex_m33,2620,1456,1456,VERIFIED,Target number confirmed

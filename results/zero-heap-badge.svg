@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="20">
+  <rect width="140" height="20" fill="#555"/>
+  <rect x="70" width="70" height="20" fill="#4c1"/>
+  <text x="5" y="14" fill="#fff" font-family="Arial" font-size="11">Heap Usage</text>
+  <text x="75" y="14" fill="#fff" font-family="Arial" font-size="11">0 Bytes</text>
+</svg>

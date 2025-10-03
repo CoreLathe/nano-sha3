@@ -1,0 +1,3 @@
+architecture,static_library,compilation,execution,timing_result,status
+intel_x64,libnano_sha3_256_intel_x64.a,SUCCESS,SUCCESS,TIMING_VARIATION,STANDARD
+arm_linux,libnano_sha3_256_arm_linux.a,SUCCESS,SUCCESS,CONSTANT_TIME,ACHIEVED

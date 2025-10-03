@@ -1,0 +1,3 @@
+architecture,library,status,vectors_tested
+intel_x64,libnano_sha3_256_intel_x64.a,PASSED,237
+arm_linux,libnano_sha3_256_arm_linux.a,PASSED,237

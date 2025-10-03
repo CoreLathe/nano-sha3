@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="20">
+  <path fill="#555" d="M0 0h90v20H0z"/>
+  <path fill="#4c1" d="M90 0h70v20H90z"/>
+  <text x="45" y="14" fill="#fff" font-size="11">Stack</text>
+  <text x="125" y="14" fill="#fff" font-size="11">320B</text>
+</svg>

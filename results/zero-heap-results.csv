@@ -1,0 +1,4 @@
+analysis_type,heap_bytes,status,confidence_level
+symbol_analysis,0,ACHIEVED,high
+source_analysis,0,ACHIEVED,high
+api_analysis,0,ACHIEVED,high
