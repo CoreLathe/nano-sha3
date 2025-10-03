@@ -1,4 +1,4 @@
-# NanoSHA3-256 – 1,456 B SHA-3-256 for Embedded Systems
+# NanoSHA3-256 – ≤ 1.5 kB SHA-3-256 for Embedded Systems
 
 ![Size](https://img.shields.io/badge/flash-1456B-blue)
 ![Stack](https://img.shields.io/badge/stack-≤384B-green)
