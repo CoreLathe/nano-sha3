@@ -1,8 +1,11 @@
 # Nano-SHA3-256 – ≤ 1.5 kB SHA-3-256 for Embedded Systems
 
 ![Size](https://img.shields.io/badge/flash-≤1.5kB-blue)
+
 ![Stack](https://img.shields.io/badge/stack-≤384B-green)
+
 ![Heap](https://img.shields.io/badge/heap-0%20Bytes-red)
+
 ![Timing](https://img.shields.io/badge/timing-constant--time-orange)
 
 **ARM Cortex-M0/M4/M33 optimized | ≤384 B stack | zero heap | constant-time verified | MIT-licensed validation**
