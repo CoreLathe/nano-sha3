@@ -1,6 +1,6 @@
 #!/bin/bash
 # NanoSHA3-256 Zero-Heap Validation
-# Grade: A+ (Multi-layered symbol analysis with API safety review)
+# (Multi-layered symbol analysis with API safety review)
 # Confirms zero heap allocation for safety-critical applications
 
 set -euo pipefail
