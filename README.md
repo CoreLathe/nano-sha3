@@ -1,5 +1,5 @@
 # Nano-SHA3-256 – ≤ 1.5 kB SHA-3-256 for Embedded Systems
-# [https://www.CoreLathe.com](https://corelathe.com/nano-sha3-armv6-m/index.html)
+## [https://www.CoreLathe.com](https://corelathe.com/nano-sha3-armv6-m/index.html)
 
 ![Size](https://img.shields.io/badge/flash-≤1.5kB-blue)
 
