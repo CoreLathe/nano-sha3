@@ -9,7 +9,7 @@
 ![Timing](https://img.shields.io/badge/timing-constant--time-orange)
 
 **ARM Cortex-M0/M4/M33 optimized | ≤384 B stack | zero heap | constant-time verified | MIT-licensed validation**
-
+[https://www.CoreLathe.com](https://corelathe.com/nano-sha3-armv6-m/index.html)
 **≤ 1.5 kB** SHA-3-256 flash footprint on ARM Cortex-M4/M33
 **Multi-architecture timing validation** with **constant-time confirmation**
 **Zero heap**, **≤384 B stack**, **`no_std`**
@@ -262,4 +262,5 @@ Request access to optimized static libraries for evaluation and prototyping unde
 Full repository access, certification documentation, and technical support for production deployment.
 
 **Site:** [https://www.CoreLathe.com](https://corelathe.com/nano-sha3-armv6-m/index.html)
+
 **Contact:** sales@CoreLathe.com
