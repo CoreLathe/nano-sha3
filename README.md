@@ -261,5 +261,5 @@ Request access to optimized static libraries for evaluation and prototyping unde
 ### Production: Commercial Source License
 Full repository access, certification documentation, and technical support for production deployment.
 
-**Repository:** [https://github.com/CoreLathe/nano-sha3-256](https://github.com/CoreLathe/nano-sha3-256)
-**Contact:** engineering@CoreLathe.com
+**Site:** [https://www.CoreLathe.com](https://corelathe.com/nano-sha3-armv6-m/index.html)
+**Contact:** sales@CoreLathe.com
