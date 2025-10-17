@@ -1,4 +1,5 @@
 # Nano-SHA3-256 – ≤ 1.5 kB SHA-3-256 for Embedded Systems
+# [https://www.CoreLathe.com](https://corelathe.com/nano-sha3-armv6-m/index.html)
 
 ![Size](https://img.shields.io/badge/flash-≤1.5kB-blue)
 
@@ -13,7 +14,7 @@
 **≤ 1.5 kB** SHA-3-256 flash footprint on ARM Cortex-M4/M33
 **Multi-architecture timing validation** with **constant-time confirmation**
 **Zero heap**, **≤384 B stack**, **`no_std`**
-[https://www.CoreLathe.com](https://corelathe.com/nano-sha3-armv6-m/index.html)
+
 ## Quick Start
 
 ```rust
